@@ -1,12 +1,11 @@
 import React, { useState } from "react";
 import { InputText } from "primereact/inputtext";
 import { Button } from "primereact/button";
-
-import { ListBox } from 'primereact/listbox';
+import "./Hero.css"
 const Hero = () => {
-    // const []
+  // const []
   const [value, setValue] = useState();
- 
+
   return (
     <>
       <div className="flex p-justify-center gap-5">
@@ -41,19 +40,48 @@ const Hero = () => {
         </span>
       </div>
       <div className="grid m-2">
-        <div className="col-3 text-center bg-black-alpha-10 border-1 h-22rem">
-<ul className="list list-none line-height-4 p-0">
-    <li>Imrankhan@gmail.com</li>
-    <li>Imrankhan@gmail.com</li>
-    <li>Imrankhan@gmail.com</li>
-    <li>Imrankhan@gmail.com</li>
-    <li>Imrankhan@gmail.com</li>
-</ul>
-
- 
+        <div className="col-3 text-center bg-black-alpha-10 border-1 h-42rem">
+          <ul className="list list-none line-height-4 p-0">
+            <li>Imrankhan@gmail.com</li>
+            <li>Imrankhan@gmail.com</li>
+            <li>Imrankhan@gmail.com</li>
+            <li>Imrankhan@gmail.com</li>
+            <li>Imrankhan@gmail.com</li>
+          </ul>
         </div>
-        <div className="col-9 border-1 h-22rem">
-          <h1>i am left</h1>
+        <div className="col-9    eft-1 h-42rem">
+          <div className="container3 p-3 m-3 shadow-2">
+            <img src="./image" />
+            Imrankhan
+            <br />
+            <span>@Imrankhan23</span>
+            <p  style={{ width: "60vw", 'fontWeight':'100' }}>Find English paragraph. Search Here Now. Search For English paragraph With us. Browse It Here. Online Searches. All The Info You Need. Web Search Info. Millions Search Result
+            </p>
+          </div>
+          <div className="container3 p-3  shadow-4 ">
+            <img src="./image" />
+            Imrankhan
+            <br />
+            <span>@Imrankhan23</span>
+            <p  style={{ width: "60vw", 'fontWeight':'100' }}>Find English paragraph. Search Here Now. Search For English paragraph With us. Browse It Here. Online Searches. All The Info You Need. Web Search Info. Millions Search Result
+            </p>
+          </div>
+          <div className="container3 p-3  shadow-4 ">
+            <img src="./image" />
+            Imrankhan
+            <br />
+            <span>@Imrankhan23</span>
+            <p  style={{ width: "60vw", 'fontWeight':'100' }}>Find English paragraph. Search Here Now. Search For English paragraph With us. Browse It Here. Online Searches. All The Info You Need. Web Search Info. Millions Search Result
+            </p>
+          </div>
+          <div className="container3 p-3  shadow-4 ">
+            <img src="./image" />
+            Imrankhan
+            <br />
+            <span>@Imrankhan23</span>
+            <p  style={{ width: "60vw", 'fontWeight':'100' }}>Find English paragraph. Search Here Now. Search For English paragraph With us. Browse It Here. Online Searches. All The Info You Need. Web Search Info. Millions Search Result
+            </p>
+          </div>
         </div>
       </div>
     </>

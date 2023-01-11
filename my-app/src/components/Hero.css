@@ -1,0 +1,11 @@
+.container3 p{
+    font-weight: 100;
+}
+.container3 span{
+    font-weight: 100;
+}
+.container3{
+    background-color: rgba(240, 248, 255, 0.062);
+    border-radius: 20px;
+    box-shadow: inset ;
+}
