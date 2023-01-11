@@ -1,9 +1,28 @@
-.body{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.nav-wrapper {
+    background: linear-gradient(90deg, #000000 10%, #0daeee 100%);
+    color: #fff;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-#menu{
-    background:linear-gradient(90deg, #000000e4 30%, #000000 100%);
- 
+.container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 1em;
+    /* margin: 0 auto; */
+    padding: 0 20px;
+}
+.nav-link {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 1em;
+   flex-direction: row;
+    /* margin: 0 auto; */
+    padding: 0 6em;
+}
+.nav-link li{
+    list-style: none;
 }
