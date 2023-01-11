@@ -2,3 +2,10 @@
 body {
   font-family: 'Ubuntu', sans-serif;
 }
+#light{
+background-color: aliceblue;
+}
+#dark{
+  background-color: darkslategrey;
+  color: white;
+}

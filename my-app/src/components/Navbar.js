@@ -1,10 +1,17 @@
-import React from "react";
+import React,{useState} from "react";
 import "./Navbar.css";
 import { InputSwitch } from "primereact/inputswitch";
+import {createContext} from "react";
+import Hero from "./Hero";
+export const ThemeContext= createContext("light");
 function Navbar() {
   const [value, setValue] = React.useState(false);
-
+  const [theme,settheme]=useState("dark");
+  const toggleTheme=()=>{
+    settheme((curr)=>(curr==="light"?"dark":"light"))
+  }
   return (
+    <>
     <nav>
       <div className="nav-wrapper">
         <div className="container">
@@ -31,14 +38,21 @@ function Navbar() {
                 style={{
                   fontSize: "2em",
                   color: "black",
-                  borderRadius: "10rem",
+                  borderRadius: "100px",
                 }}
+                onChange={toggleTheme} checked={theme==="dark"}
               />
             </li>
           </ul>
         </div>
       </div>
     </nav>
+    <ThemeContext.Provider value={{theme,toggleTheme}}>
+    <div className="hero" id={theme}>
+    <Hero/>
+    </div>
+    </ThemeContext.Provider>
+ </>
   );
 }
 
