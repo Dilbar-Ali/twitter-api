@@ -26,3 +26,12 @@
 .nav-link li{
     list-style: none;
 }
+
+/* //For responsive */
+
+@media screen and (max-width: 600px){
+.li:nth-child(1){
+    display: none   ;
+}
+    
+}

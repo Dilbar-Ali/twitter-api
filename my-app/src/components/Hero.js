@@ -17,7 +17,7 @@ const Hero = () => {
             style={{}}
           />
           <label htmlFor="in">
-            {" "}
+           
             <i className="pi pi-search"></i> Enter Username
           </label>
         </span>
@@ -49,7 +49,7 @@ const Hero = () => {
             <li>Imrankhan@gmail.com</li>
           </ul>
         </div>
-        <div className="col-9    eft-1 h-45rem">
+        <div className="col-9  eft-1 h-45rem">
           <div className="container3 p-3 m-3 shadow-1 flex-wrap">
             <img src="./image/ " />
             Imrankhan

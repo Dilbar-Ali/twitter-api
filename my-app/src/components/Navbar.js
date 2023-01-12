@@ -40,7 +40,7 @@ function Navbar() {
                   color: "black",
                   borderRadius: "100px",
                 }}
-                onChange={toggleTheme} checked={theme==="dark"}
+                onChange={toggleTheme} checked={theme==="light"}
               />
             </li>
           </ul>
